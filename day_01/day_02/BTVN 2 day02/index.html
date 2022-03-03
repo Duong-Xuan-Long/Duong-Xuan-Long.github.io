@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>td{ 
+        width:100px;
+    }
+    </style>
+    
+</head>
+<body>
+  <table border="1" cellspacing="2">
+      <thead>
+         <tr>
+             <th colspan="2"><b>ĐĂNG KÍ </b></th>
+           
+         </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Full name</td>
+              <td><input type="text" placeholder="Nhập fullname"></td>
+          </tr>
+          <tr>
+              <td>User name</td>
+              <td><input type="text" placeholder="Nhập tên"></td>
+          </tr>
+          <tr>
+              <td>Password</td>
+              <td><input type="text" placeholder="Nhập mật khẩu"></td>
+          </tr>
+          <tr>
+              <td style="height:35px;width:60px" >Nhập lại Password</td>
+              <td rowspan="2"><input type="text" placeholder="Nhập lại mật khẩu"></td>
+          </tr>
+          <tr></tr>
+          <tr>
+              <td>Giới tính</td>
+              <td><input type="radio" name="gender" id="Nam" >Male
+                
+                <input type="radio" name="gender" id="Nữ">Female
+              
+            </td>
+          </tr>
+          <tr>
+              <td>Ngày sinh</td>
+              <td><select name="" id="">
+                  <option value="">Ngày 1</option>
+                 
+              </select>
+              <select name="" id="">
+                <option value="">Tháng 1</option>
+            </select>
+            <select name="" id="">
+                <option value="">Năm 2015</option>
+            </select></td>
+          </tr>
+          <tr>
+              <td style="height:35px;width:60px">Địa chỉ</td>
+              <td >
+                  <input type="text">
+              </td>
+          </tr>
+          <tr></tr>
+          <tr>
+              <td>Avartar</td>
+              <td><input type="file"></td>
+          </tr>
+          <tr>
+              <td>Sở thích</td>
+              <td><input type="checkbox">Xem phim
+                <input type="checkbox"> <label for="">Thể thao</label>
+                <input type="checkbox"> <label for="">Web</label></td>
+          </tr>
+          <tr>
+              
+              <td colspan="2" align="center"><button>Reset</button>
+            <button>Ok</button></td>
+            
+              
+          </tr>
+      </tbody>
+  </table>
+</body>
+</html>

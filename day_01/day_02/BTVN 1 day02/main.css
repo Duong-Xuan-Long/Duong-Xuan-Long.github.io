@@ -1,0 +1,106 @@
+/* reset css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+
+  background-color: #464646;
+}
+.card {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.tieude {
+  color: #fff;
+  font-size: 18px;
+}
+li {
+  color: #919294;
+  font-size: 14px;
+}
+.cshws,
+.gt,
+.tvts,
+.dc {
+  line-height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.iconfyg {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.social-link i {
+  color: #919294;
+  font-size: 28px;
+}
+.social-link i:hover,
+.social-link i:focus {
+  opacity: 1;
+}
+@media (min-width: 580px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cshws,
+  .gt,
+  .tvts,
+  .dc {
+    flex: 1 1 50%;
+    text-align: left;
+    line-height: 40px;
+  }
+  .iconfyg {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+.c a{
+  color:#919294;
+  text-decoration:none;
+}
+.c a:hover{
+  text-decoration: underline;
+}
+#fa:hover{
+  color:blue;
+  opacity:1;
+
+}
+@media (min-width: 778px) {
+  .card {
+    display: flex;
+  }
+  .cshws,
+  .gt,
+  .tvts,
+  .dc {
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    text-align: left;
+  }
+  .iconfyg {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    justify-content: space-between;
+    text-align: left;
+  }
+}

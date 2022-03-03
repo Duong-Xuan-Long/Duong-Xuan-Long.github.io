@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>no</th>
+                <th>fullname</th>
+                <th>position</th>
+                <th>salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>Nhan vien</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tran Van B</td>
+                <td>Giam doc </td>
+                <td>3000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngo Thi C</td>
+                <td>Truong phong kinh doanh</td>
+                <td>2000$</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
+
+<table>
+    <thead>
+        <tr>
+            <th>no</th>
+            <th>fullname</th>
+            <th>position</th>
+            <th>salary</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn A</td>
+            <td>Nhan vien</td>
+            <td rowspan="3">4000$</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Tran Van B</td>
+            <td>Giam doc </td>
+
+        </tr>
+        <tr>
+
+            <td>Quan li nhan su </td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ngo Thi C</td>
+            <td>Truong phong kinh doanh</td>
+            <td>2000$</td>
+        </tr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">address</th>
+                </tr>
+                <tr>
+
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bùi Hiên</td>
+                    <td>Thái Bình </td>
+                    <td>Việt Nam</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lisa</td>
+                    <td>Bac Kinh</td>
+                    <td>Trung quoc</td>
+                </tr>
+            </tbody>
+        </table>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Level 1</th>
+            <th>Level 2</th>
+            <th>Level 3</th>
+            <th>Info</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="6">system</td>
+            <td rowspan="4">system Apps </td>
+            <td rowspan="3">SystemEnv</td>
+            <td>App Test</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+
+
+
+            <td>App Memory</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+
+
+
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+
+
+            <td>SystemEnv2</td>
+            <td>App Test</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+
+            <td rowspan="2">System Memory</td>
+            <td rowspan="2">Memory Test</td>
+            <td>Memory Func</td>
+            <td>foo</td>
+        </tr>
+        <tr>
+
+
+            <td>Apes Test</td>
+            <td>foo</td>
+        </tr>
+
+    </tbody>
+</table>
