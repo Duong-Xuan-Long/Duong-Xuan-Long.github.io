@@ -1,0 +1,81 @@
+/* reset css  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    margin:0 auto;
+
+}
+.address,.learning-days,.hour-span{
+    line-height:2em;
+}
+.sign-up{
+    padding-bottom:10px;
+}
+
+    
+   
+
+.year{
+    background-color:#ef5321;
+    text-align:center;
+    color:#fff;
+    padding-top:10px;
+
+}
+.day{
+    background-color:#fe6d3f;
+
+    color:#fff;
+    text-align:center;
+   font-size:2.5rem;
+}
+.month{
+    background-color:#fe6d3f;
+
+    text-align:center;
+ 
+    color:#fff;
+}
+
+
+.course-name{
+
+    color:#464646;
+    padding-top:10px;
+}
+.sign-up{
+
+    color:#3c78e8;
+    padding-top:8px;
+    padding-bottom:1px;
+    border-top: 0.5px solid #c4c4c4e3;
+    margin-right:10px;
+    margin-left:1px;
+}
+.hour-span{
+ 
+    color:#464646;
+}
+.address{
+   
+    color:#464646;
+}
+.learning-days{
+   
+    color:#464646;
+}
+.course-name,.learning-days,.address,.hour-span,.sign-up{
+    margin-left:8px;
+}
+
+
