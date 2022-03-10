@@ -1,0 +1,12 @@
+/* reset css  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.content{
+    list-style:none; 
+}
+.pizza{
+    margin-left:20px;
+}
