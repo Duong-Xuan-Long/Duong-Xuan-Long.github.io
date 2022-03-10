@@ -1,0 +1,70 @@
+/* reset css */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    width:280px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    line-height:1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+   margin-right:15px;
+  margin-bottom:10px;
+  overflow: hidden;
+  background-color: white;
+  
+}
+.hinhthucicon{
+    display:flex;
+    justify-content:space-between;
+    margin: 16px 0;
+}
+
+img{
+   max-width:100%;
+
+}
+.title,.hinhthucicon,.gia{
+    padding-left:10px;
+}
+.title{
+    font-weight:400;
+    color:#464646;
+}
+.hinhthucicon{
+    color:#757575;
+}
+.gia{
+    color:red;
+}
+#icon{
+    color:#ffd600;
+}
+.cardgroup{
+    width:900px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+.tatca{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#f0ecec
+}
+.footer{
+display:flex;
+background-color:#464646;
+}
+.part1,.part2,.part3,.part4{
+    margin-right:20px;
+}

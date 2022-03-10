@@ -21,7 +21,8 @@ body{
 .title{
     font-size:32px;
     align-self:center;
-    font-weight:300;
+    font-weight:100;
+    font-family:'Roboto', sans-serif;;
 }
 .content{
      text-align:center;
