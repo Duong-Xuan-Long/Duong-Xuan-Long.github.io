@@ -1,0 +1,55 @@
+/* reset css  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ul{
+    list-style:none;
+    width:300px;
+   box-shadow:0 0 5px black;
+}
+.submenu{
+    
+    position:relative;
+}
+.submenu1{
+    position:absolute;
+    top:0;
+    right:-100%;
+    display:none;
+}
+.submenu2{
+    position:absolute;
+    top:0;
+    right:-100%;
+    display:none;
+    
+}
+li{
+    padding:5px;
+    color:#7e8399;
+}
+
+li:hover{
+    background-color:#eceff1;
+
+}
+li:hover> label{
+    color:red;
+}
+span{
+    float:right;
+    margin-right:10px;
+display:none;
+}
+  li:hover>span{
+      display:inline-block;
+  }
+  .submenu>li:hover>.submenu1{
+      display:block;
+  }
+  .submenu>li:hover>.submenu1>li:hover>.submenu2{
+      display:block;
+  }
+
