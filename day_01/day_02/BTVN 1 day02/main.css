@@ -17,7 +17,7 @@ body {
   color: #fff;
   font-size: 18px;
 }
-li {
+.card li {
   color: #919294;
   font-size: 14px;
 }
@@ -30,7 +30,7 @@ li {
   padding-right: 15px;
   text-align: center;
 }
-ul {
+.card ul {
   list-style: none;
 }
 .iconfyg {

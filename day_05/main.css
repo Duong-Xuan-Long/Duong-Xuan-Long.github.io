@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    height:2000px;
+}
+.parent{
+    width:1200px;
+    height:600px;
+    background-color:yellowgreen ;
+    position:absolute;
+}
+.box{
+    width:1000px;
+    height:500px;
+    background-color:blue;
+margin-top:200px;
+margin-left:200px;
+/* position:relative; */
+
+    
+    
+}
+.box-1{
+    width:200px;
+    height:100px;
+    background-color:red;
+    position:absolute;
+    top:100px;
+    left:100px;
+    
+}
+
+
+
+.nut{
+    position:fixed;
+    z-index:10;
+    right:50px;
+    bottom:50px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border:none;
+    padding: 15px 32px;
+
+
+}
+.sticky{
+    height:50px;
+background-color: black;
+position:sticky;
+z-index:10;
+    top:20px;
+    margin-top:400px;
+
+}
+.card {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .tieude {
+    color: #fff;
+    font-size: 18px;
+  }
+  .card li {
+    color: #919294;
+    font-size: 14px;
+  }
+  .cshws,
+  .gt,
+  .tvts,
+  .dc {
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .card ul {
+    list-style: none;
+  }
+  .iconfyg {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 150px;
+    justify-content: space-between;
+  }
+  
+  .social-link i {
+    color: #919294;
+    font-size: 28px;
+  }
+  .social-link i:hover,
+  .social-link i:focus {
+    opacity: 1;
+  }
+  @media (min-width: 580px) {
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .cshws,
+    .gt,
+    .tvts,
+    .dc {
+      flex: 1 1 50%;
+      text-align: left;
+      line-height: 40px;
+    }
+    .iconfyg {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+  .c a{
+    color:#919294;
+    text-decoration:none;
+  }
+  .c a:hover{
+    text-decoration: underline;
+  }
+  #fa:hover{
+    color:blue;
+    opacity:1;
+  
+  }
+  @media (min-width: 778px) {
+    .card {
+      display: flex;
+    }
+    .cshws,
+    .gt,
+    .tvts,
+    .dc {
+      flex-wrap: wrap;
+      flex-basis: 25%;
+      text-align: left;
+    }
+    .iconfyg {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+  
