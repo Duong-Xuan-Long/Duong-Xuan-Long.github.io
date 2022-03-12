@@ -54,6 +54,7 @@ ul{
     height:32px;
     border-radius:50%;
     margin-right:10px;
+    margin-top:-6px;
 }
 .header>ul>li{
     margin:6px 4px;
@@ -92,6 +93,7 @@ header label{
 }
 .header>ul>li:hover>ul{
    display:block;
+   z-index:1000;
 }
 .header>ul>li>ul>li:hover{
     background-color:#c4c4c4;
@@ -201,7 +203,7 @@ p{
     font-size:19.2px;
     font-weight:400;
     cursor:pointer;
-    color:#c4c4c4;
+    color:#464646;
 }
 [class^=cd]{
     margin-top:15px;
@@ -234,6 +236,7 @@ p{
     background-color: #464646;
     padding-top: 10px;
     padding-bottom: 48px;
+   
   }
   #tieude {
     color: #fff;
@@ -320,6 +323,8 @@ p{
   @media (min-width: 778px) {
     .card {
       display: flex;
+      justify-content:space-around;
+      
     }
     .cshws,
     .gt,

@@ -1,0 +1,90 @@
+/* .box{
+    width:200px;
+    height:100px;
+    background-color:blue; */
+    /* transition-property: width,height;
+    transition-duration:0.5s,1s; */
+
+    /* transition-property:all;
+    transition:0.5s;
+    transition: all 0.5s; */
+    /* transition-delay: 1s; */
+    /* border:1px solid black;
+    border-width:1px;
+    border-style:solid;
+    border-color:black; */
+/* }
+.box:hover{
+    width:300px;
+    height:200px;
+} */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hiden;
+    height:100vh;
+}
+ 
+
+.box{
+    width:400px;
+    background-color:black;
+    color:blue;
+    padding:20px;
+    overflow:hidden;
+}
+
+/* .box h2{
+    position:relative;
+    left:-200px;
+    transition : all 0.5s;
+} 
+.box:hover h2{
+    left:0;
+} */
+.box h2{
+    transform:translateX(-200px);
+    transition:all 0.5s;
+}
+.box:hover h2{
+    transform:translateX(0px);
+}
+.card{
+    width:350px;
+    border:1px solid black;
+    position:relative;
+    height:300px;
+}
+img{
+    height:100%;
+    left:0;
+    top:0;
+    /* right:0;
+    bottom:0; */
+    width:100%;
+    position:absolute;
+    transition:all 1s;
+}
+.card:hover p{
+    position:absolute;
+    z-index:1000;
+    left:0;
+    bottom:0;
+}
+.card:hover img{
+    transform:scale(2.3)
+
+}
+ /* .card p{
+     transform:translateY(-200px);
+     transition:all 0.5s ease-out;
+ }
+ .card:hover p{
+        transform:translateY(0px)
+ } */
