@@ -100,3 +100,10 @@ i {
     }
 
 }
+p{
+    font-size:50px;
+    position:absolute;
+    top: 185px;
+    left: 500px;
+    color:rgb(93, 209, 238);
+}
