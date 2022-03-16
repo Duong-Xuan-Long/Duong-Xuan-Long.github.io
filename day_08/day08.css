@@ -174,6 +174,7 @@ img{
     margin-right:10px;
     z-index:4;
     font-weight:300;
+   
 }
 
 .card1content,.cardfooter,.card1{
@@ -186,13 +187,14 @@ img{
     width:1500px;
     position:absolute;
     top:600px;
+    
 
 }
 .footer{
     display:flex;
     padding:50px;
     position:absolute;
-    bottom:-600px;
+    bottom:-667px;
     left:37%;
     color:rgb(194, 142, 79)
     
