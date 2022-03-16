@@ -1,0 +1,63 @@
+/* reset css  */
+*{
+    padding:0;
+    margon:0;
+    box-sizing:border-box;
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:800px;
+    /* background-color:rgb(177, 75, 75); */
+}
+.snow{
+    background-color:blue;
+    width:350px;
+    height:100px;
+    position:relative;
+
+
+}
+i{
+    color:white;
+}
+.type1{
+    position:absolute;
+    
+animation: type1 10s 0s linear infinite;
+}
+ .type2{
+    position:absolute;
+    bottom:0;
+    right:0;
+
+}
+.type3{
+    position:absolute;
+    right:0;
+    
+}
+@keyframes type1{
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:50px;
+        left:0;
+    }
+    50%{
+        top:75px;
+        left:0;
+    }
+    60%{
+        top:90px;
+        left:0;
+    }
+    100%{
+        bottom:0;
+        left:0;
+    }
+}

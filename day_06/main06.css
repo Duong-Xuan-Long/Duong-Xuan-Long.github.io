@@ -31,60 +31,47 @@ body{
     height:100vh;
 }
  
-
-.box{
-    width:400px;
-    background-color:black;
-    color:blue;
-    padding:20px;
-    overflow:hidden;
-}
-
-/* .box h2{
-    position:relative;
-    left:-200px;
-    transition : all 0.5s;
-} 
-.box:hover h2{
-    left:0;
-} */
-.box h2{
-    transform:translateX(-200px);
-    transition:all 0.5s;
-}
-.box:hover h2{
-    transform:translateX(0px);
-}
 .card{
-    width:350px;
     border:1px solid black;
-    position:relative;
-    height:300px;
+    width:350px;
+    position:absolute;
+    animation: card 2s 1s infinite;
 }
+
 img{
-    height:100%;
-    left:0;
-    top:0;
-    /* right:0;
-    bottom:0; */
     width:100%;
-    position:absolute;
-    transition:all 1s;
 }
-.card:hover p{
+h1{
+    animation: h1 2s 1s infinite ;
     position:absolute;
-    z-index:1000;
-    left:0;
-    bottom:0;
 }
-.card:hover img{
-    transform:scale(2.3)
+p{
+    animation:p 2s 1s infinite;
+    position:absolute;
+}
+@keyframes card{
+    0%{
+        bottom:0;
+    }
+100%{
+    bottom:40%;
+}
 
 }
- /* .card p{
-     transform:translateY(-200px);
-     transition:all 0.5s ease-out;
- }
- .card:hover p{
-        transform:translateY(0px)
- } */
+
+@keyframes h1{
+    0%{
+      bottom:-200%;
+    }
+    100%{
+        
+    }
+}
+@keyframes p{
+    0%{
+      bottom:-100%;
+    }
+    100%{
+        
+    }
+}

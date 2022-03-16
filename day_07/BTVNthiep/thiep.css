@@ -1,0 +1,102 @@
+/* reset css  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  background: url(https://phunugioi.com/wp-content/uploads/2021/12/background-Tet-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 243px;
+  left: 510px;
+}
+
+i {
+  color: rgb(235, 159, 67);
+  font-size: 100px;
+  animation: i 2s linear infinite;
+}
+@keyframes i {
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.snowpart {
+  position: relative;
+
+  width: 30vw;
+  height: 100vh;
+}
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./snow.png);
+  mix-blend-mode: screen;
+}
+.snow1 {
+  animation: snow1 15s linear infinite;
+}
+.snow2 {
+  animation: snow2 15s linear infinite;
+}
+.snow3 {
+  animation: snow3 15s linear infinite;
+}
+@keyframes snow1 {
+  0% {
+    background-position: 0 0;
+    filter: blur(2px);
+  }
+  100% {
+    background-position: 0 500px;
+    filter: blur(2px);
+  }
+}
+@keyframes snow2 {
+  0% {
+    background-position: 0 0;
+    filter: blur(2px);
+  }
+  100% {
+    background-position: 900px 500px;
+    filter: blur(2px);
+  }
+}
+.word {
+  position: absolute;
+  top: 403px;
+  left: 443px;
+}
+.word span {
+  font-size: 62px;
+  margin: 5px;
+  color: rgb(53, 112, 189);
+  animation:span 1s ease-in-out infinite;
+  position:relative;
+  display:inline-block;
+  animation-delay:calc(0.1s* var(--i))
+}
+
+@keyframes span{
+    0%{
+        transform:translateY(0px);
+    }
+    20%{
+        transform:translateY(-20px);
+    }
+    40%,100%{
+        transform:translateY(0px);
+    }
+
+}
