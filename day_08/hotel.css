@@ -220,6 +220,7 @@ a:active{
     /* flex-wrap:wrap; */
     position:relative;
     padding-left:8px;
+    padding-top:10px;
 }
 #anhhanoi{
     width:100%;}
