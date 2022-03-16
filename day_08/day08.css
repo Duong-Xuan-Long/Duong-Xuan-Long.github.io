@@ -1,0 +1,199 @@
+/* reset css   */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(104, 214, 168);
+    align-items:center;
+}
+.webname{
+    color:rgb(58, 43, 43);
+    font-size:20px;
+    font-weight:700;
+}
+.ten{
+    display:flex;
+    justify-content:space-evenly;
+    width:168px;
+}
+.ulheader{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    
+    width:500px;
+}
+a{
+    text-decoration:none;
+    color:rgb(184, 45, 126);
+    font-weight:500;
+  
+    position:relative;
+
+}
+a::before{
+    content:"";
+    position:absolute;
+    width:0;
+    background-color:black;
+    left:0;
+    top:100%;
+    height:2px;
+ transition:all 0.6s ease-in-out;
+}
+li{
+    padding:10px;
+}
+a:hover::before{
+    width:100%;
+    
+}
+
+a:hover{
+    color:#464646;
+}
+a:active{
+    color:bisque;
+}
+.image{
+    width:100%;
+}
+.content{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+img{
+    width:100%;
+    z-index:-1
+}
+.titlecontent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    z-index:1;
+    top: 42%;
+    left: 33%;
+}
+.titlecontent h1,.titlecontent p{
+    color:#fff;
+    font-size:50px;
+}
+.titlecontent p{
+    font-weight:100;
+    font-size:25px;
+}
+#anhcard{
+    height:300px;
+    transition:all 1s;
+}
+.card1{
+    width:350px;
+    position:relative;
+    overflow:hidden;
+    box-shadow: 0 15px 40px 0 black;
+    height:580px;
+    border-radius:10px;
+}
+.card1:hover{
+    box-shadow: 0 15px 30px 0 black;
+}
+.card1title{
+    font-size:25px;
+    font-weight:500;
+  
+}
+.card1content{
+    transition:all 1s;
+    background-color:#fff;
+    padding-bottom:90px;
+    position:relative;
+    z-index:3;
+}
+.card1:hover .card1content{
+    transform:translateY(-200px);
+}
+.card1:hover #anhcard{
+       transform:scaleX(1.2);
+}
+.card1::before{
+    content:"";
+    background:url(https://sieuthitranh.net/shop/wp-content/uploads/4-1.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+ background-position:center;
+    width:100%;
+    height:145px;
+    position:absolute;
+    top:351px;
+    z-index:4;
+    
+    
+}
+.card1::after{
+    content:"";
+    
+    width:100%;
+    height:250px;
+    position:absolute;
+    top:0px;
+    left:0;
+    z-index:1;
+    transition:all 2s;
+   
+}
+.card1:hover::after{
+    background-color:rgba(0,0,0,0.5);
+}
+.card1content p{
+    margin-left:10px;
+    margin-bottom:10px;
+    
+   
+
+}
+.card1passage{
+    font-weight:400;
+    line-height:30px;
+}
+
+.cardfooter{
+    position:absolute;
+    bottom:50px;
+    right:0;
+    margin-right:10px;
+    z-index:4;
+    font-weight:300;
+}
+
+.card1content,.cardfooter,.card1{
+    background-color:azure;
+}
+
+.card{
+    display:flex;
+    justify-content:space-evenly;
+    width:1500px;
+    position:absolute;
+    top:600px;
+
+}
+.footer{
+    display:flex;
+    padding:50px;
+    position:absolute;
+    bottom:-600px;
+    left:37%;
+    color:rgb(194, 142, 79)
+    
+}

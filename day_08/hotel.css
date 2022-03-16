@@ -1,0 +1,237 @@
+/* reset css  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+.card1{
+    width:810px;
+    padding-left:20px;
+    /* border:2px solid red; */
+    position:relative;
+    overflow:hidden;
+    border:3px ridge  rgb(50, 119, 223);
+    margin-bottom:30px;
+    background-color: white;
+    
+}
+.cardname{
+    font-size: 24px;
+    color:#202124;
+    padding-top:20px;
+}
+.pdau{
+    padding-top:3px;
+    padding-bottom:3px;
+}
+p{
+    color:#947b86;
+}
+.hotro{
+    margin:35px;
+}
+.hotro .border {
+    color:#75676f;
+    padding:5px;
+    border:1px solid #dcdee2;
+    border-left:none;
+    border-right:none;
+    margin:25px;
+    position:relative;
+    background-color: #fff;
+    z-index:10;
+    background-color: #fff;
+
+
+}
+.hotro .border::before{
+    content:"";
+    border:1px solid #dcdee2;
+    height:100%;
+    width:33px;
+    position:absolute;
+    top:-1px;
+    left:-20%;
+    border-radius:100%;
+    z-index:-1;
+
+    
+}
+.hotro .border::after{
+    content:"";
+    border:1px solid #dcdee2;
+    height:100%;
+    width:33px;
+    position:absolute;
+    top:-1px;
+    right:-20%;
+    border-radius:100%;
+    z-index:-1;
+    
+}
+.border:hover{
+    cursor:pointer;
+}
+.content2{
+    border-top:1px solid #dbdde1;
+    padding-top:17px;
+}
+.xx{
+    border-right:2px solid #72a4d5;
+    padding-right:2px;
+}
+.rating{
+    display:flex;
+    border-right:1px solid #eaebed;
+    width:300px;
+    position:relative;
+    z-index:10;
+    background-color: #fff;
+}
+.chitieu{
+    position:absolute;
+    right: -370px;
+    bottom: 81px;
+    
+    transition:all 1s;
+    
+    
+}
+.chitieu:hover{
+    right:-10px;
+    }
+.chitieu span{
+    margin-right:10px;
+}
+button{
+    border:none;
+    text-decoration:none;
+    background-color:#1a73e8;
+    font-weight:500;
+    padding:12px;
+    width:120px;
+border-radius:10px; 
+    color:white;
+    position:absolute;
+    right: 35px;
+    top: 121px;
+}
+button:hover{
+    background-color:#1453a5;
+}
+button:active{
+    background-color:#0e4081;
+}
+
+.khuyenmai{
+    width:230px;
+    border-radius:10px;
+    background-color:#0e4081; 
+    padding:15px;
+    position:absolute;
+    top:6px;
+    right:35px;
+
+}
+.gia{
+    font-size:12px;
+    border:1px solid white;
+    color:white;
+    padding-top:2px;
+}
+.g{
+    color:white;
+    font-size:20px;
+  
+}
+.re{
+    color:white;
+    font-size:12px;
+    float:right;
+}
+.khuyenmai:active{
+    background-color:#1453a5;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(104, 214, 168);
+    align-items:center;
+}
+.webname{
+    color:rgb(58, 43, 43);
+    font-size:20px;
+    font-weight:700;
+}
+.ten{
+    display:flex;
+    justify-content:space-evenly;
+    width:168px;
+}
+.ulheader{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    
+    width:500px;
+}
+a{
+    text-decoration:none;
+    color:rgb(184, 45, 126);
+    font-weight:500;
+  
+    position:relative;
+
+}
+a::before{
+    content:"";
+    position:absolute;
+    width:0;
+    background-color:black;
+    left:0;
+    top:100%;
+    height:2px;
+ transition:all 0.6s ease-in-out;
+}
+li{
+    padding:10px;
+}
+a:hover::before{
+    width:100%;
+    
+}
+
+a:hover{
+    color:#464646;
+}
+a:active{
+    color:bisque;
+}
+.hanoipart{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color:rgba(202, 183, 153, 0.438);
+    /* flex-wrap:wrap; */
+    position:relative;
+    padding-left:8px;
+}
+#anhhanoi{
+    width:100%;}
+.titlehanoipart{
+    position:absolute;
+    color:white;
+    top:180px;
+    left:10px;
+    font-weight:500;
+    font-size:65px;
+}
+.hotel{
+    display:flex;
+    flex-direction:column;
+}
