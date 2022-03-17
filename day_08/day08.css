@@ -205,7 +205,7 @@ img{
     
 
 }
-.footer{
+/* .footer{
     display:flex;
     padding:50px;
     position:absolute;
@@ -213,4 +213,14 @@ img{
     left:37%;
     color:rgb(194, 142, 79)
     
+} */
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(159, 162, 197);
+    margin-top:240px;
+}
+.footer p{
+    font-size:99px;
+   color:#d6dfee;
 }
