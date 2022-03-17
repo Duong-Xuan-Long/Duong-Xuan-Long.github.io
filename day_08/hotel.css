@@ -108,6 +108,9 @@ p{
 .chitieu span{
     margin-right:10px;
 }
+.border i{
+    padding-right:10px;
+}
 button{
     border:none;
     text-decoration:none;
@@ -215,6 +218,7 @@ a:active{
 .hanoipart{
     display:flex;
     flex-direction:row;
+    justify-content:space-evenly;
     align-items:center;
     background-color:rgba(202, 183, 153, 0.438);
     /* flex-wrap:wrap; */
@@ -222,17 +226,32 @@ a:active{
     padding-left:8px;
     padding-top:10px;
 }
+.hanoipart .image{
+    width:30%;
+}
 #anhhanoi{
-    width:100%;}
+    width:100%;
+
+}
 .titlehanoipart{
     position:absolute;
     color:white;
-    top:180px;
-    left:10px;
+    top:230px;
+    left:110px;
     font-weight:500;
     font-size:65px;
 }
 .hotel{
     display:flex;
     flex-direction:column;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(159, 162, 197);
+    
+}
+.footer p{
+    font-size:99px;
+   color:#d6dfee;
 }

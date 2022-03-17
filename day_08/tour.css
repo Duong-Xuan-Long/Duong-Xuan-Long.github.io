@@ -111,6 +111,7 @@ img{
     display:flex;
     justify-content: center;
     background-color:rgb(159, 162, 197);
+    margin-top:85px;
 }
 .footer p{
     font-size:99px;

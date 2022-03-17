@@ -119,10 +119,24 @@ img{
     padding-bottom:90px;
     position:relative;
     z-index:3;
+    
 }
-.card1:hover .card1content{
-    transform:translateY(-200px);
+.card1:hover .card11content{
+    transform:translateY(-120px);
+   /* padding-bottom:30px; */
+   
 }
+.card1:hover .card12content{
+    transform:translateY(-90px);
+   /* padding-bottom:30px; */
+   
+}
+.card1:hover .card13content{
+    transform:translateY(-120px);
+   /* padding-bottom:30px; */
+   
+}
+
 .card1:hover #anhcard{
        transform:scaleX(1.2);
 }
@@ -155,11 +169,12 @@ img{
 .card1:hover::after{
     background-color:rgba(0,0,0,0.5);
 }
+
 .card1content p{
     margin-left:10px;
     margin-bottom:10px;
-    
    
+        
 
 }
 .card1passage{
