@@ -122,7 +122,7 @@ img{
     
 }
 .card1:hover .card11content{
-    transform:translateY(-120px);
+    transform:translateY(-150px);
    /* padding-bottom:30px; */
    
 }
@@ -132,7 +132,7 @@ img{
    
 }
 .card1:hover .card13content{
-    transform:translateY(-120px);
+    transform:translateY(-90px);
    /* padding-bottom:30px; */
    
 }
